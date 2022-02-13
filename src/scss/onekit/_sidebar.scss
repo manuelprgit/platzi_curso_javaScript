@@ -1,0 +1,38 @@
+/*------------------------------------
+ Sidebar
+------------------------------------*/
+.side-links, .side-link, .sidebar-link {
+	li {
+		a {
+		    color: $body-color;
+		    &.caret-collapse{
+				color: $primary;
+			}
+			&.caret-collapse.collapsed{
+				color: $navbar-light-color;
+				&:hover{
+					color: $primary;
+				}
+			}
+			&:hover, &.active{
+				background-color: transparent;
+				color: $primary;
+			}
+		}
+	}
+	&>a {
+		color: $body-color;
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+.sidebar-link {
+	li {
+		a {
+			display: block;
+			font-size: $sidebar-link-font-size;
+			padding: $sidebar-link-padding;
+		}
+	}
+}

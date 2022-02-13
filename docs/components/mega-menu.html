@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Title-->
+  <title>Mega Menu - Onekit Documentation</title>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon  -->
+  <link rel="icon" href="../../src/img-min/logo/favicon.png">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+  <!--Plugins Styles-->
+  <link rel="stylesheet" href="../../src/plugins/aos/dist/aos.css">
+  <link rel="stylesheet" href="../../src/plugins/lightgallery.js/dist/css/lightgallery.min.css">
+  <link rel="stylesheet" href="../../src/plugins/flickity/dist/flickity.min.css">
+
+  <!--Styles-->
+  <link rel="stylesheet" href="../../src/css/theme.css">
+
+  <!--Documentation css-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/docs.css">
+</head>
+
+<body id="page-top">
+  <!--Skippy-->
+  <a id="skippy" class="visually-hidden-focusable" href="#content">
+    <div class="container">
+      <span class="skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  
+  <!--Header start-->
+  <header class="header">
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom z-index-50 py-2 py-lg-0 px-4">
+      <div class="container">
+        <!-- logo -->
+        <div class="nav-logo6">
+          <a class="navbar-brand main-logo" href="../index.html">
+            <!-- <span class="h3 text-white fw-bold mt-2">Onekit</span> -->
+            <img src="../../src/img-min/logo/logo.png" alt="LOGO">
+          </a>
+        </div>
+
+        <!-- menu  -->
+        <button class="navbar-toggler p-0 border-0 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarNavDropdown" class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" class="bi bi-file-earmark-text me-1" fill="currentColor"><path d="M4 0h5.5v1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V4.5h1V14a2 2 0 01-2 2H4a2 2 0 01-2-2V2a2 2 0 012-2z"></path><path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 019.5 3z"></path><path fill-rule="evenodd" d="M5 11.5a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5z"></path></svg>
+              Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../sections/content.html">
+                <svg class="bi bi-collection me-1" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 011 13V6a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v7a.5.5 0 01-.5.5zm-13 1A1.5 1.5 0 010 13V6a1.5 1.5 0 011.5-1.5h13A1.5 1.5 0 0116 6v7a1.5 1.5 0 01-1.5 1.5h-13zM2 3a.5.5 0 00.5.5h11a.5.5 0 000-1h-11A.5.5 0 002 3zm2-2a.5.5 0 00.5.5h7a.5.5 0 000-1h-7A.5.5 0 004 1z" clip-rule="evenodd"></path>
+                </svg>
+              Sections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../getting-started/changelog.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" class="bi bi-code-square me-1" fill="currentColor"><path fill-rule="evenodd" d="M14 1H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0 00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z"></path><path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 010 .708L4.207 8l2.647 2.646a.5.5 0 01-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 01.708 0zm2.292 0a.5.5 0 000 .708L11.793 8l-2.647 2.646a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 00-.708 0z"></path></svg>
+                Changelogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../getting-started/support.html">
+                <svg class="bi bi-info-square me-1" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14 1H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0 00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z" clip-rule="evenodd"></path>
+                  <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"></path>
+                  <circle cx="8" cy="4.5" r="1"></circle>
+                </svg>
+              Support</a>
+            </li>
+          </ul>
+          <div class="text-center py-3 py-md-0">
+            <a target="_blank" class="btn btn-warning btn-sm d-block d-lg-inline" href="../../index.html">
+              <svg class="bi bi-link-45deg" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.715 6.542L3.343 7.914a3 3 0 104.243 4.243l1.828-1.829A3 3 0 008.586 5.5L8 6.086a1.001 1.001 0 00-.154.199 2 2 0 01.861 3.337L6.88 11.45a2 2 0 11-2.83-2.83l.793-.792a4.018 4.018 0 01-.128-1.287z"></path>
+                <path d="M5.712 6.96l.167-.167a1.99 1.99 0 01.896-.518 1.99 1.99 0 01.518-.896l.167-.167A3.004 3.004 0 006 5.499c-.22.46-.316.963-.288 1.46z"></path>
+                <path d="M6.586 4.672A3 3 0 007.414 9.5l.775-.776a2 2 0 01-.896-3.346L9.12 3.55a2 2 0 012.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 00-4.243-4.243L6.586 4.672z"></path>
+                <path d="M10 9.5a2.99 2.99 0 00.288-1.46l-.167.167a1.99 1.99 0 01-.896.518 1.99 1.99 0 01-.518.896l-.167.167A3.004 3.004 0 0010 9.501z"></path>
+              </svg>
+              Live Preview
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navigation -->
+  </header>
+
+  <!--Main start-->
+  <div id="content" class="container">
+    <div class="row ">
+      <div class="col-12 pt-4 pt-lg-0 d-lg-none">
+        <!-- left nav -->
+        <button type="button" class="border" data-bs-toggle="collapse" data-bs-target="#leftnav" aria-controls="leftnav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-primary me-2" width="2rem" height="2rem" fill="currentColor" viewBox="0 0 512 512"><line x1="80" y1="160" x2="432" y2="160" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="80" y1="256" x2="432" y2="256" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="80" y1="352" x2="432" y2="352" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/></svg>
+          Left Sidebar Menu
+        </button>
+      </div>
+
+      <!--left sidebar start-->
+      <div class="col-12 col-lg-3 col-xl-2 bn-sidebar">
+        <nav class="collapse d-lg-block ps-lg-3 py-3" id="leftnav">
+          <!-- get started -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              Getting started
+            </a>
+            <ul class="nav milyader collapse" id="collapse1" data-bs-parent="#leftnav">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/tools.html">Tools</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelogs</a></li>
+            </ul>
+          </div>
+          <!-- Customization -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            Customize
+            </a>
+            <ul class="nav milyader collapse" id="collapse5" data-bs-parent="#leftnav">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/js.html">JS</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+              <li><a href="../customization/rtl.html">RTL</a></li>
+            </ul>
+          </div>
+          <!-- layout -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse1b" aria-expanded="false" aria-controls="collapse1b">
+              Layout
+            </a>
+            <ul class="nav milyader collapse" id="collapse1b" data-bs-parent="#leftnav">
+              <li><a href="../layout/grid.html">Grid</a></li>
+              <li><a href="../layout/z-index.html">Z-index</a></li>
+            </ul>
+          </div>
+          <!-- Content -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse41" aria-expanded="false" aria-controls="collapse41">
+            Content
+            </a>
+            <ul class="nav milyader collapse" id="collapse41" data-bs-parent="#leftnav">
+              <li><a href="../content/typography.html">Typography</a></li>
+            </ul>
+          </div>
+          <!-- Forms -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse42" aria-expanded="false" aria-controls="collapse42">
+            Forms
+            </a>
+            <ul class="nav milyader collapse" id="collapse42" data-bs-parent="#leftnav">
+              <li><a href="../forms/input-pill.html">Input form pill</a></li>
+            </ul>
+          </div>
+          <!-- components -->
+          <div class="bn-toc-item active">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+              Component
+            </a>
+            <ul class="nav milyader collapse show" id="collapse3" data-bs-parent="#leftnav">
+              <li><a href="accordion.html">Accordion</a></li>
+              <li><a href="alerts.html">Alerts</a></li>
+              <li><a href="animate.html">Animate</a></li>
+              <li><a href="avatars.html">Avatars</a></li>
+              <li><a href="backtop.html">Back to top</a></li>
+              <li><a href="badge.html">Badge</a></li>
+              <li><a href="bg-video.html">Background video</a></li>
+              <li><a href="breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="buttons.html">Buttons</a></li>
+              <li><a href="cards.html">Cards</a></li>
+              <li><a href="collapse.html">Collapse</a></li>
+              <li><a href="device.html">Device</a></li>
+              <li><a href="dropdown.html">Dropdown</a></li>
+              <li><a href="list-group.html">List group</a></li>
+              <li class="active"><a href="mega-menu.html">Mega menu</a></li>
+              <li><a href="mobile-menu.html">Mobile menu</a></li>
+              <li><a href="modal.html">Modal</a></li>
+              <li><a href="navbar.html">Navbar</a></li>
+              <li><a href="pagination.html">Pagination</a></li>
+              <li><a href="particles.html">Particles</a></li>
+              <li><a href="popovers.html">Popovers</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="ribbon.html">Ribbon</a></li>
+              <li><a href="spinners.html">Spinners</a></li>           
+              <li><a href="tabs.html">Tabs</a></li>
+              <li><a href="toasts.html">Toasts</a></li>
+              <li><a href="tooltips.html">Tooltips</a></li>
+            </ul>
+          </div>
+          <!-- plugins -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse66" aria-expanded="false" aria-controls="collapse66">
+              Plugins
+            </a>
+            <ul class="nav milyader collapse" id="collapse66" data-bs-parent="#leftnav">
+              <li><a href="../plugins/aos.html">AOS</a></li>
+              <li><a href="../plugins/counter-up.html">Counter up2</a></li>
+              <li><a href="../plugins/flickity.html">Flickity</a></li>
+              <li><a href="../plugins/hc-sticky.html">Hc Sticky</a></li>
+              <li><a href="../plugins/isotope.html">Isotope</a></li>
+              <li><a href="../plugins/jarallax.html">Jarallax</a></li>
+              <li><a href="../plugins/vanilla-lazyload.html">Lazyload</a></li>
+              <li><a href="../plugins/lightgallery.html">Lightgallery</a></li>
+              <li><a href="../plugins/smooth-scroll.html">Smooth Scroll</a></li>
+              <li><a href="../plugins/typed.html">Typed</a></li>
+              <li><a href="../plugins/waves.html">Waves</a></li>
+              <li><a href="../plugins/waypoints.html">Waypoints</a></li>
+            </ul>
+          </div>
+          <!-- Utilities -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            Utilities
+            </a>
+            <ul class="nav milyader collapse" id="collapse4" data-bs-parent="#leftnav">
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/opacity.html">Opacity</a></li>
+              <li><a href="../utilities/overlay.html">Overlay</a></li>
+              <li><a href="../utilities/rotate.html">Rotate</a></li>
+              <li><a href="../utilities/shadows.html">Shadow</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+            </ul>
+          </div>
+          <!-- Svg -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse43" aria-expanded="false" aria-controls="collapse43">
+            Svg Images
+            </a>
+            <ul class="nav milyader collapse" id="collapse43" data-bs-parent="#leftnav">
+              <li><a href="../svg-img/ionicons.html">IonIcons</a>
+              <li><a href="../svg-img/scribble.html">Scribble</a>
+            </ul>
+          </div>
+          <!-- Optimization -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse44" aria-expanded="false" aria-controls="collapse44">
+            Optimization
+            </a>
+            <ul class="nav milyader collapse" id="collapse44" data-bs-parent="#leftnav">
+              <li><a href="../optimization/overview.html">Overview</a></li>
+              <li><a href="../optimization/web-vitals.html">Web Vitals</a></li>
+              <li><a href="../optimization/loading.html">Fast Loading</a></li>
+              <li><a href="../optimization/pwa.html">PWA</a></li>
+              <li><a href="../optimization/webp.html">WebP Images</a></li>
+              <li><a href="../optimization/w3c.html">W3C Standart</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Left sidebar end-->
+        
+      <!--Content start-->
+      <main class="col-12 col-lg-9 col-xl-10 px-md-3 px-lg-5 bn-content pb-5">
+        <div class="jump mt-lg-3">
+          <h1 class="mb-3">Dropdown Mega Menu</h1>
+          <p class="lead text-muted">Documentation and examples for powerful, and responsive navigation mega menu.</p>
+        </div>
+
+        <div id="mega-banner" class="jump">
+          <h3 class="h4 mb-3">Mega menu</h3>
+          <p>This is mega menu with icons and list menu</p>
+          <div class="exampless">
+            <!-- ========== { HEADER }==========  -->
+            <header>
+              <!-- Navbar -->
+              <nav class="main-nav navbar navbar-expand-lg hover-navbar navbar-light">
+                <div class="container">
+                  <a class="navbar-brand main-logo" href="#">
+                    <!-- <span class="h2 text-white fw-bold mt-2">Onekit</span> -->
+                    <img class="logo-dark" src="../../src/img-min/logo/logo.png" alt="LOGO">
+                  </a>
+
+                  <!-- navbar toggler -->
+                  <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo"
+                    aria-controls="navbarTogglerDemo"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- collapse menu -->
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+                    <ul class="navbar-nav nav-hover1 ms-auto mt-2 mt-lg-0">
+                      <!--mega menu with header banner-->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown1">
+                          Home
+                        </a>
+                        <div class="dropdown-menu dropdown-md dropdown-menu-lg-center py-0" aria-labelledby="navbarDropdown1">
+                          <div class="row g-0">
+                            <div class="col-12 col-md-6">
+                              <div class="dropdown-md-area">
+                                <p class="dropdown-md-title">Corporate</p>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/>
+                                      <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Agency</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                                      <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Company</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Coworking</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
+                                      <path d="M8.473.337a.5.5 0 0 0-.946 0L6.954 2h2.092L8.473.337zM12.15 11h-1.058l1.435 4.163a.5.5 0 0 0 .946-.326L12.15 11zM8.5 11h-1v2.5a.5.5 0 0 0 1 0V11zm-3.592 0H3.85l-1.323 3.837a.5.5 0 1 0 .946.326L4.908 11z"/>
+                                      <path fill-rule="evenodd" d="M14 3H2v7h12V3zM2 2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Course</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M12.002 4h-10a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1zm-10-1a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-10zm4 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                      <path fill-rule="evenodd" d="M4 2h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1v1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2h1a1 1 0 0 1 1-1z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Portfolio</p>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-6 bg-light">
+                              <div class="dropdown-md-area">
+                                <p class="dropdown-md-title">App &amp; Others</p>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                                      <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Default</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+                                      <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Mobile App</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+                                      <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Desktop App</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">Personal</p>
+                                  </div>
+                                </a>
+                                <a class="dropdown-item d-flex" href="#">
+                                  <div class="drop-icon bg-primary text-light rounded-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+                                      <path d="M4.605 2.5V2v.5zM3.61 3.6l.498-.043V3.55l-.498.05zM7 2.5h.5A.5.5 0 0 0 7 2v.5zm-.676 1.454l.304.397-.304-.397zm3.352 0l-.304.397.304-.397zM9 2.5V2a.5.5 0 0 0-.5.5H9zm3.39 1.1l-.498-.05v.007l.498.043zM12.1 7l-.498-.043a.5.5 0 0 0 .498.543V7zm1.854-.676l.397.304-.397-.304zm0 3.352l.397-.304-.397.304zM12.1 9v-.5a.5.5 0 0 0-.498.542L12.1 9zm.29 3.4l-.498.043v.007l.498-.05zM9 13.5h-.5a.5.5 0 0 0 .5.5v-.5zm.676-1.454l-.304-.397.304.397zm-3.352 0l.304-.397-.304.397zM7 13.5v.5a.5.5 0 0 0 .5-.5H7zm-2.395 0V13v.5zm-.995-1.1l.498.05v-.007L3.61 12.4zM3.9 9l.498.042A.5.5 0 0 0 3.9 8.5V9zm-1.854.676l-.397-.304.397.304zm0-3.352l-.397.304.397-.304zM3.9 7v.5a.5.5 0 0 0 .498-.543L3.9 7zm.705-5a1.5 1.5 0 0 0-1.493 1.65l.995-.1A.5.5 0 0 1 4.605 3V2zM7 2H4.605v1H7V2zm.5.882V2.5h-1v.382h1zm-.872 1.469c.375-.287.872-.773.872-1.469h-1c0 .195-.147.42-.48.675l.608.794zM6.5 4.5l.001-.006a.113.113 0 0 1 .012-.025.459.459 0 0 1 .115-.118l-.608-.794c-.274.21-.52.528-.52.943h1zM8 5c-.491 0-.912-.1-1.19-.24a.86.86 0 0 1-.271-.194.213.213 0 0 1-.039-.063V4.5h-1c0 .568.447.947.862 1.154C6.807 5.877 7.387 6 8 6V5zm1.5-.5v.003a.213.213 0 0 1-.039.064.86.86 0 0 1-.27.193C8.91 4.9 8.49 5 8 5v1c.613 0 1.193-.123 1.638-.346.415-.207.862-.586.862-1.154h-1zm-.128-.15c.065.05.099.092.115.119.008.013.01.021.012.025L9.5 4.5h1c0-.415-.246-.733-.52-.943l-.608.794zM8.5 2.883c0 .696.497 1.182.872 1.469l.608-.794c-.333-.255-.48-.48-.48-.675h-1zm0-.382v.382h1V2.5h-1zm2.895-.5H9v1h2.395V2zm1.493 1.65A1.5 1.5 0 0 0 11.395 2v1a.5.5 0 0 1 .498.55l.995.1zm-.29 3.392l.29-3.4-.996-.085-.29 3.4.996.085zm.284-.542H12.1v1h.782v-1zm.675-.48c-.255.333-.48.48-.675.48v1c.696 0 1.182-.497 1.469-.872l-.794-.608zm.943-.52c-.415 0-.733.246-.943.52l.794.608a.459.459 0 0 1 .118-.115.113.113 0 0 1 .025-.012L14.5 6.5v-1zM16 8c0-.613-.123-1.193-.346-1.638-.207-.415-.586-.862-1.154-.862v1h.003l.01.003a.237.237 0 0 1 .053.036.86.86 0 0 1 .194.27c.14.28.24.7.24 1.191h1zm-1.5 2.5c.568 0 .947-.447 1.154-.862C15.877 9.193 16 8.613 16 8h-1c0 .491-.1.912-.24 1.19a.86.86 0 0 1-.194.271.214.214 0 0 1-.063.039H14.5v1zm-.943-.52c.21.274.528.52.943.52v-1l-.006-.001a.113.113 0 0 1-.025-.012.458.458 0 0 1-.118-.115l-.794.608zm-.675-.48c.195 0 .42.147.675.48l.794-.608c-.287-.375-.773-.872-1.469-.872v1zm-.782 0h.782v-1H12.1v1zm.788 2.858l-.29-3.4-.996.084.29 3.401.996-.085zM11.395 14a1.5 1.5 0 0 0 1.493-1.65l-.995.1a.5.5 0 0 1-.498.55v1zM9 14h2.395v-1H9v1zm.5-.5v-.382h-1v.382h1zm0-.382c0-.195.147-.42.48-.675l-.608-.794c-.375.287-.872.773-.872 1.469h1zm.48-.675c.274-.21.52-.528.52-.943h-1l-.001.006a.113.113 0 0 1-.012.025.459.459 0 0 1-.115.118l.608.794zm.52-.943c0-.568-.447-.947-.862-1.154C9.193 10.123 8.613 10 8 10v1c.492 0 .912.1 1.19.24.14.07.226.14.271.194a.214.214 0 0 1 .039.063v.003h1zM8 10c-.613 0-1.193.123-1.638.346-.415.207-.862.586-.862 1.154h1v-.003l.003-.01a.214.214 0 0 1 .036-.053.859.859 0 0 1 .27-.194C7.09 11.1 7.51 11 8 11v-1zm-2.5 1.5c0 .415.246.733.52.943l.608-.794a.459.459 0 0 1-.115-.118.113.113 0 0 1-.012-.025L6.5 11.5h-1zm.52.943c.333.255.48.48.48.675h1c0-.696-.497-1.182-.872-1.469l-.608.794zm.48.675v.382h1v-.382h-1zM4.605 14H7v-1H4.605v1zm-1.493-1.65A1.5 1.5 0 0 0 4.605 14v-1a.5.5 0 0 1-.498-.55l-.995-.1zm.29-3.393l-.29 3.401.996.085.29-3.4-.996-.086zm-.284.543H3.9v-1h-.782v1zm-.675.48c.255-.333.48-.48.675-.48v-1c-.696 0-1.182.497-1.469.872l.794.608zm-.943.52c.415 0 .733-.246.943-.52l-.794-.608a.459.459 0 0 1-.118.115.112.112 0 0 1-.025.012L1.5 9.5v1zM0 8c0 .613.123 1.193.346 1.638.207.415.586.862 1.154.862v-1h-.003a.213.213 0 0 1-.064-.039.86.86 0 0 1-.193-.27C1.1 8.91 1 8.49 1 8H0zm1.5-2.5c-.568 0-.947.447-1.154.862C.123 6.807 0 7.387 0 8h1c0-.492.1-.912.24-1.19a.86.86 0 0 1 .194-.271.213.213 0 0 1 .063-.039H1.5v-1zm.943.52c-.21-.274-.528-.52-.943-.52v1l.006.001a.112.112 0 0 1 .025.012c.027.016.068.05.118.115l.794-.608zm.675.48c-.195 0-.42-.147-.675-.48l-.794.608c.287.375.773.872 1.469.872v-1zm.782 0h-.782v1H3.9v-1zm-.788-2.858l.29 3.4.996-.085-.29-3.4-.996.085z"/>
+                                    </svg>
+                                  </div>
+                                  <div class="drop-text">
+                                    <p class="fw-medium">StartUp <span class="badge small bg-primary ms-2">coming soon</span></p>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-12 border-top text-center">
+                              <div class="p-3 small">Pre-build landing pages for your your personal and business site.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </header>
+            <br><br>
+            <div class="block-area">
+              <pre>
+                <code class="language-html" data-lang="html">
+                  &lt;!--mega menu with header banner--&gt;
+                  &lt;li class="nav-item dropdown"&gt;
+                    &lt;a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbarDropdown1"&gt;
+                      Home
+                    &lt;/a&gt;
+                    &lt;div class="dropdown-menu dropdown-md dropdown-menu-lg-center py-0" aria-labelledby="navbarDropdown1"&gt;
+                      &lt;div class="row g-0"&gt;
+                        &lt;div class="col-12 col-md-6"&gt;
+                          &lt;div class="dropdown-md-area"&gt;
+                            &lt;p class="dropdown-md-title"&gt;Corporate&lt;/p&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6h-1v6a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-6H0v6z"/&gt;
+                                  &lt;path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v2.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 6.884V4.5zM1.5 4a.5.5 0 0 0-.5.5v1.616l6.871 1.832a.5.5 0 0 0 .258 0L15 6.116V4.5a.5.5 0 0 0-.5-.5h-13zM5 2.5A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Agency&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/&gt;
+                                  &lt;path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Company&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1h7.956a.274.274 0 0 0 .014-.002l.008-.002c-.002-.264-.167-1.03-.76-1.72C13.688 10.629 12.718 10 11 10c-1.717 0-2.687.63-3.24 1.276-.593.69-.759 1.457-.76 1.72a1.05 1.05 0 0 0 .022.004zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10c-1.668.02-2.615.64-3.16 1.276C1.163 11.97 1 12.739 1 13h3c0-1.045.323-2.086.92-3zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Coworking&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16"&gt;
+                                  &lt;path d="M8.473.337a.5.5 0 0 0-.946 0L6.954 2h2.092L8.473.337zM12.15 11h-1.058l1.435 4.163a.5.5 0 0 0 .946-.326L12.15 11zM8.5 11h-1v2.5a.5.5 0 0 0 1 0V11zm-3.592 0H3.85l-1.323 3.837a.5.5 0 1 0 .946.326L4.908 11z"/&gt;
+                                  &lt;path fill-rule="evenodd" d="M14 3H2v7h12V3zM2 2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Course&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M12.002 4h-10a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1zm-10-1a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-10zm4 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/&gt;
+                                  &lt;path fill-rule="evenodd" d="M4 2h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1v1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2h1a1 1 0 0 1 1-1z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Portfolio&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-12 col-md-6 bg-light"&gt;
+                          &lt;div class="dropdown-md-area"&gt;
+                            &lt;p class="dropdown-md-title"&gt;App &amp; Others&lt;/p&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16"&gt;
+                                  &lt;path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Default&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/&gt;
+                                  &lt;path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Mobile App&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/&gt;
+                                  &lt;path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Desktop App&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"&gt;
+                                  &lt;path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;Personal&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                            &lt;a class="dropdown-item d-flex" href="#"&gt;
+                              &lt;div class="drop-icon bg-primary text-light rounded-3"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16"&gt;
+                                  &lt;path d="M4.605 2.5V2v.5zM3.61 3.6l.498-.043V3.55l-.498.05zM7 2.5h.5A.5.5 0 0 0 7 2v.5zm-.676 1.454l.304.397-.304-.397zm3.352 0l-.304.397.304-.397zM9 2.5V2a.5.5 0 0 0-.5.5H9zm3.39 1.1l-.498-.05v.007l.498.043zM12.1 7l-.498-.043a.5.5 0 0 0 .498.543V7zm1.854-.676l.397.304-.397-.304zm0 3.352l.397-.304-.397.304zM12.1 9v-.5a.5.5 0 0 0-.498.542L12.1 9zm.29 3.4l-.498.043v.007l.498-.05zM9 13.5h-.5a.5.5 0 0 0 .5.5v-.5zm.676-1.454l-.304-.397.304.397zm-3.352 0l.304-.397-.304.397zM7 13.5v.5a.5.5 0 0 0 .5-.5H7zm-2.395 0V13v.5zm-.995-1.1l.498.05v-.007L3.61 12.4zM3.9 9l.498.042A.5.5 0 0 0 3.9 8.5V9zm-1.854.676l-.397-.304.397.304zm0-3.352l-.397.304.397-.304zM3.9 7v.5a.5.5 0 0 0 .498-.543L3.9 7zm.705-5a1.5 1.5 0 0 0-1.493 1.65l.995-.1A.5.5 0 0 1 4.605 3V2zM7 2H4.605v1H7V2zm.5.882V2.5h-1v.382h1zm-.872 1.469c.375-.287.872-.773.872-1.469h-1c0 .195-.147.42-.48.675l.608.794zM6.5 4.5l.001-.006a.113.113 0 0 1 .012-.025.459.459 0 0 1 .115-.118l-.608-.794c-.274.21-.52.528-.52.943h1zM8 5c-.491 0-.912-.1-1.19-.24a.86.86 0 0 1-.271-.194.213.213 0 0 1-.039-.063V4.5h-1c0 .568.447.947.862 1.154C6.807 5.877 7.387 6 8 6V5zm1.5-.5v.003a.213.213 0 0 1-.039.064.86.86 0 0 1-.27.193C8.91 4.9 8.49 5 8 5v1c.613 0 1.193-.123 1.638-.346.415-.207.862-.586.862-1.154h-1zm-.128-.15c.065.05.099.092.115.119.008.013.01.021.012.025L9.5 4.5h1c0-.415-.246-.733-.52-.943l-.608.794zM8.5 2.883c0 .696.497 1.182.872 1.469l.608-.794c-.333-.255-.48-.48-.48-.675h-1zm0-.382v.382h1V2.5h-1zm2.895-.5H9v1h2.395V2zm1.493 1.65A1.5 1.5 0 0 0 11.395 2v1a.5.5 0 0 1 .498.55l.995.1zm-.29 3.392l.29-3.4-.996-.085-.29 3.4.996.085zm.284-.542H12.1v1h.782v-1zm.675-.48c-.255.333-.48.48-.675.48v1c.696 0 1.182-.497 1.469-.872l-.794-.608zm.943-.52c-.415 0-.733.246-.943.52l.794.608a.459.459 0 0 1 .118-.115.113.113 0 0 1 .025-.012L14.5 6.5v-1zM16 8c0-.613-.123-1.193-.346-1.638-.207-.415-.586-.862-1.154-.862v1h.003l.01.003a.237.237 0 0 1 .053.036.86.86 0 0 1 .194.27c.14.28.24.7.24 1.191h1zm-1.5 2.5c.568 0 .947-.447 1.154-.862C15.877 9.193 16 8.613 16 8h-1c0 .491-.1.912-.24 1.19a.86.86 0 0 1-.194.271.214.214 0 0 1-.063.039H14.5v1zm-.943-.52c.21.274.528.52.943.52v-1l-.006-.001a.113.113 0 0 1-.025-.012.458.458 0 0 1-.118-.115l-.794.608zm-.675-.48c.195 0 .42.147.675.48l.794-.608c-.287-.375-.773-.872-1.469-.872v1zm-.782 0h.782v-1H12.1v1zm.788 2.858l-.29-3.4-.996.084.29 3.401.996-.085zM11.395 14a1.5 1.5 0 0 0 1.493-1.65l-.995.1a.5.5 0 0 1-.498.55v1zM9 14h2.395v-1H9v1zm.5-.5v-.382h-1v.382h1zm0-.382c0-.195.147-.42.48-.675l-.608-.794c-.375.287-.872.773-.872 1.469h1zm.48-.675c.274-.21.52-.528.52-.943h-1l-.001.006a.113.113 0 0 1-.012.025.459.459 0 0 1-.115.118l.608.794zm.52-.943c0-.568-.447-.947-.862-1.154C9.193 10.123 8.613 10 8 10v1c.492 0 .912.1 1.19.24.14.07.226.14.271.194a.214.214 0 0 1 .039.063v.003h1zM8 10c-.613 0-1.193.123-1.638.346-.415.207-.862.586-.862 1.154h1v-.003l.003-.01a.214.214 0 0 1 .036-.053.859.859 0 0 1 .27-.194C7.09 11.1 7.51 11 8 11v-1zm-2.5 1.5c0 .415.246.733.52.943l.608-.794a.459.459 0 0 1-.115-.118.113.113 0 0 1-.012-.025L6.5 11.5h-1zm.52.943c.333.255.48.48.48.675h1c0-.696-.497-1.182-.872-1.469l-.608.794zm.48.675v.382h1v-.382h-1zM4.605 14H7v-1H4.605v1zm-1.493-1.65A1.5 1.5 0 0 0 4.605 14v-1a.5.5 0 0 1-.498-.55l-.995-.1zm.29-3.393l-.29 3.401.996.085.29-3.4-.996-.086zm-.284.543H3.9v-1h-.782v1zm-.675.48c.255-.333.48-.48.675-.48v-1c-.696 0-1.182.497-1.469.872l.794.608zm-.943.52c.415 0 .733-.246.943-.52l-.794-.608a.459.459 0 0 1-.118.115.112.112 0 0 1-.025.012L1.5 9.5v1zM0 8c0 .613.123 1.193.346 1.638.207.415.586.862 1.154.862v-1h-.003a.213.213 0 0 1-.064-.039.86.86 0 0 1-.193-.27C1.1 8.91 1 8.49 1 8H0zm1.5-2.5c-.568 0-.947.447-1.154.862C.123 6.807 0 7.387 0 8h1c0-.492.1-.912.24-1.19a.86.86 0 0 1 .194-.271.213.213 0 0 1 .063-.039H1.5v-1zm.943.52c-.21-.274-.528-.52-.943-.52v1l.006.001a.112.112 0 0 1 .025.012c.027.016.068.05.118.115l.794-.608zm.675.48c-.195 0-.42-.147-.675-.48l-.794.608c.287.375.773.872 1.469.872v-1zm.782 0h-.782v1H3.9v-1zm-.788-2.858l.29 3.4.996-.085-.29-3.4-.996.085z"/&gt;
+                                &lt;/svg&gt;
+                              &lt;/div&gt;
+                              &lt;div class="drop-text"&gt;
+                                &lt;p class="fw-medium"&gt;StartUp &lt;span class="badge small bg-primary ms-2"&gt;coming soon&lt;/span&gt;&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/a&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-12 border-top text-center"&gt;
+                          &lt;div class="p-3 small"&gt;Pre-build landing pages for your your personal and business site.&lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/li&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+
+        <div id="mega-md" class="jump">
+          <h3 class="h4 mb-3">Medium menu with Svg icons</h3>
+          <p>This is a medium dropdown menu with svg icons</p>
+          <div class="exampless">
+            <!-- ========== { HEADER }==========  -->
+            <header>
+              <!-- Navbar -->
+              <nav class="main-nav navbar navbar-expand-lg hover-navbar navbar-light">
+                <div class="container">
+                  <a class="navbar-brand main-logo" href="#">
+                    <!-- <span class="h2 text-white fw-bold mt-2">Onekit</span> -->
+                    <img class="logo-dark" src="../../src/img-min/logo/logo.png" alt="LOGO">
+                  </a>
+
+                  <!-- navbar toggler -->
+                  <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo1"
+                    aria-controls="navbarTogglerDemo1"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- collapse menu -->
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo1">
+                    <ul class="navbar-nav nav-hover1 ms-auto mt-2 mt-lg-0">
+                      <!--medium menu with svg icon-->
+                      <li class="nav-item dropdown">
+                        <a id="navbarmd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Docs</a>
+
+                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-lg-center p-4" aria-labelledby="navbarmd">
+                          <div class="list-group list-group-flush">
+                            <a class="list-group-item dropdown-item d-flex align-item-center" href="#">
+                              <!-- Icon -->
+                              <div class="align-self-center text-primary">
+                                <svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 512 512'><path stroke="currentColor" d='M416,221.25V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V96a48,48,0,0,1,48-48h98.75a32,32,0,0,1,22.62,9.37L406.63,198.63A32,32,0,0,1,416,221.25Z' style='fill:none;stroke-linejoin:round;stroke-width:32px'/><path stroke="currentColor" d='M256,56V176a32,32,0,0,0,32,32H408' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line stroke="currentColor" x1='176' y1='288' x2='336' y2='288' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line stroke="currentColor" x1='176' y1='368' x2='336' y2='368' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/></svg>
+                              </div>
+
+                              <!-- Content -->
+                              <div class="ms-4 align-self-center">
+                                <h6 class="fw-medium text-uppercase mb-0">
+                                  Documentation
+                                </h6>
+                                <p class="text-light-blue mb-0">
+                                  Development guides
+                                </p>
+                              </div>
+                            </a>
+
+                            <a class="list-group-item dropdown-item d-flex align-item-center" href="#">
+                              <!-- Icon -->
+                              <div class="align-self-center text-primary">
+                                <svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 512 512'><rect stroke="currentColor" x='48' y='48' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect stroke="currentColor" x='288' y='48' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect stroke="currentColor" x='48' y='288' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><rect stroke="currentColor" x='288' y='288' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/></svg>
+                              </div>
+
+                              <!-- Content -->
+                              <div class="ms-4 align-self-center">
+                                <h6 class="fw-medium text-uppercase mb-0">
+                                  Components
+                                </h6>
+                                <p class="text-light-blue mb-0">
+                                  Full list of components
+                                </p>
+                              </div>
+                            </a>
+
+                            <a class="list-group-item dropdown-item d-flex align-item-center" href="#">
+                              <!-- Icon -->
+                              <div class="align-self-center text-primary">
+                                <svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 512 512'><polyline stroke="currentColor" points='160 368 32 256 160 144' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><polyline stroke="currentColor" points='352 368 480 256 352 144' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><line stroke="currentColor" x1='304' y1='96' x2='208' y2='416' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/></svg>
+                              </div>
+
+                              <!-- Content -->
+                              <div class="ms-4 align-self-center">
+                                <h6 class="fw-medium text-uppercase mb-0">
+                                  Changelog
+                                </h6>
+                                <p class="text-light-blue mb-0">
+                                  Keep track of changes
+                                </p>
+                              </div>
+
+                              <!-- Badge -->
+                              <span class="badge bg-light text-primary rounded-md ms-auto align-self-center">
+                                1.0.0
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </header>
+            <br><br>
+            <div class="block-area">
+              <pre>
+                <code class="language-html" data-lang="html">
+                  &lt;!--medium menu with svg icon--&gt;
+                  &lt;li class="nav-item dropdown"&gt;
+                    &lt;a id="navbarmd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Docs&lt;/a&gt;
+
+                    &lt;div class="dropdown-menu dropdown-menu-md dropdown-menu-lg-center p-4" aria-labelledby="navbarmd"&gt;
+                      &lt;div class="list-group list-group-flush"&gt;
+                        &lt;a class="list-group-item dropdown-item d-flex align-item-center" href="#"&gt;
+                          &lt;!-- Icon --&gt;
+                          &lt;div class="align-self-center text-primary"&gt;
+                            &lt;svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 512 512'&gt;&lt;path stroke="currentColor" d='M416,221.25V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V96a48,48,0,0,1,48-48h98.75a32,32,0,0,1,22.62,9.37L406.63,198.63A32,32,0,0,1,416,221.25Z' style='fill:none;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;path stroke="currentColor" d='M256,56V176a32,32,0,0,0,32,32H408' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;line stroke="currentColor" x1='176' y1='288' x2='336' y2='288' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;line stroke="currentColor" x1='176' y1='368' x2='336' y2='368' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;/svg&gt;
+                          &lt;/div&gt;
+
+                          &lt;!-- Content --&gt;
+                          &lt;div class="ms-4 align-self-center"&gt;
+                            &lt;h6 class="fw-medium text-uppercase mb-0"&gt;
+                              Documentation
+                            &lt;/h6&gt;
+                            &lt;p class="text-light-blue mb-0"&gt;
+                              Development guides
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/a&gt;
+
+                        &lt;a class="list-group-item dropdown-item d-flex align-item-center" href="#"&gt;
+                          &lt;!-- Icon --&gt;
+                          &lt;div class="align-self-center text-primary"&gt;
+                            &lt;svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 512 512'&gt;&lt;rect stroke="currentColor" x='48' y='48' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;rect stroke="currentColor" x='288' y='48' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;rect stroke="currentColor" x='48' y='288' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;rect stroke="currentColor" x='288' y='288' width='176' height='176' rx='20' ry='20' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;/svg&gt;
+                          &lt;/div&gt;
+
+                          &lt;!-- Content --&gt;
+                          &lt;div class="ms-4 align-self-center"&gt;
+                            &lt;h6 class="fw-medium text-uppercase mb-0"&gt;
+                              Components
+                            &lt;/h6&gt;
+                            &lt;p class="text-light-blue mb-0"&gt;
+                              Full list of components
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/a&gt;
+
+                        &lt;a class="list-group-item dropdown-item d-flex align-item-center" href="#"&gt;
+                          &lt;!-- Icon --&gt;
+                          &lt;div class="align-self-center text-primary"&gt;
+                            &lt;svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 512 512'&gt;&lt;polyline stroke="currentColor" points='160 368 32 256 160 144' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;polyline stroke="currentColor" points='352 368 480 256 352 144' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;line stroke="currentColor" x1='304' y1='96' x2='208' y2='416' style='fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/&gt;&lt;/svg&gt;
+                          &lt;/div&gt;
+
+                          &lt;!-- Content --&gt;
+                          &lt;div class="ms-4 align-self-center"&gt;
+                            &lt;h6 class="fw-medium text-uppercase mb-0"&gt;
+                              Changelog
+                            &lt;/h6&gt;
+                            &lt;p class="text-light-blue mb-0"&gt;
+                              Keep track of changes
+                            &lt;/p&gt;
+                          &lt;/div&gt;
+
+                          &lt;!-- Badge --&gt;
+                          &lt;span class="badge bg-light text-primary rounded-md ms-auto align-self-center"&gt;
+                            1.0.0
+                          &lt;/span&gt;
+                        &lt;/a&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/li&gt;
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="mega-des jump">
+          <p>You can settings this mega menu in hover or click style. If you want to use click style, just remove class <code>.hover-navbar</code> from <code>main-nav navbar navbar-expand-lg hover-navbar</code></p>
+          <p></p>
+          <p>Paste dropdown mega menu code in <a href="navbar.html">navbar area</a></p>
+          <br>
+        </div>
+      </main>
+    <!--Content end-->
+    </div>
+  </div>
+  <!--Main end-->
+  
+  <!-- =========={ SCROLL TO TOP }==========  -->
+  <a href="#page-top" class="p-3 border position-fixed end-1 bottom-1 z-index-10 back-top" title="Scroll To Top">
+    <!-- <i class="fas fa-arrow-up"></i> -->
+    <svg class="bi bi-arrow-up" width="1rem" height="1rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V4a.5.5 0 01.5-.5z" clip-rule="evenodd"></path>
+      <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 3.707 5.354 6.354a.5.5 0 11-.708-.708l3-3z" clip-rule="evenodd"></path>
+    </svg>
+  </a>
+  
+  <!-- =========={ JAVASCRIPT }==========  -->
+  <!-- Popper and Bootstrap js -->
+  <script src="../../src/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin js -->
+  <script src="../../src/plugins/jarallax/dist/jarallax.min.js"></script>
+  <script src="../../src/plugins/jarallax/dist/jarallax-video.min.js"></script>
+
+  <script src="../../src/plugins/lightgallery.js/dist/js/lightgallery.min.js"></script>
+  <script src="../../src/plugins/lightgallery.js/demo/js/lg-thumbnail.min.js"></script>
+  <script src="../../src/plugins/lightgallery.js/demo/js/lg-video.js"></script>
+  
+  <script src="../../src/plugins/aos/dist/aos.js"></script>
+  <script src="../../src/plugins/waypoints/lib/noframework.waypoints.min.js"></script>
+  <script src="../../src/plugins/counterup2/dist/index.js"></script>
+  <script src="../../src/plugins/flickity/dist/flickity.pkgd.min.js"></script>
+  <script src="../../src/plugins/typed.js/lib/typed.min.js"></script>
+  <script src="../../src/plugins/isotope-layout/dist/isotope.pkgd.min.js"></script>
+  <script src="../../src/plugins/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="../../src/plugins/vanilla-lazyload/dist/lazyload.min.js"></script>
+  <script src="../../src/plugins/hc-sticky/dist/hc-sticky.js"></script>
+
+  <!-- Theme js -->
+  <script src="../../src/js/theme.js"></script>
+  
+  <!--documentation js-->
+  <script src="../assets/js/prism/prism.js"></script>
+</body>
+</html>

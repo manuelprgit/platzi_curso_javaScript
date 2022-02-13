@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Title-->
+  <title>Isotope - Onekit Documentation</title>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon  -->
+  <link rel="icon" href="../../src/img-min/logo/favicon.png">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+  <!--Plugins Styles-->
+  <link rel="stylesheet" href="../../src/plugins/aos/dist/aos.css">
+  <link rel="stylesheet" href="../../src/plugins/lightgallery.js/dist/css/lightgallery.min.css">
+  <link rel="stylesheet" href="../../src/plugins/flickity/dist/flickity.min.css">
+
+  <!--Styles-->
+  <link rel="stylesheet" href="../../src/css/theme.css">
+
+  <!--Documentation css-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/docs.css">
+</head>
+
+<body id="page-top">
+  <!--Skippy-->
+  <a id="skippy" class="visually-hidden-focusable" href="#content">
+    <div class="container">
+      <span class="skiplink-text">Skip to main content</span>
+    </div>
+  </a>
+  
+  <!--Header start-->
+  <header class="header">
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom z-index-50 py-2 py-lg-0 px-4">
+      <div class="container">
+        <!-- logo -->
+        <div class="nav-logo6">
+          <a class="navbar-brand main-logo" href="../index.html">
+            <!-- <span class="h3 text-white fw-bold mt-2">Onekit</span> -->
+            <img src="../../src/img-min/logo/logo.png" alt="LOGO">
+          </a>
+        </div>
+
+        <!-- menu  -->
+        <button class="navbar-toggler p-0 border-0 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarNavDropdown" class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" class="bi bi-file-earmark-text me-1" fill="currentColor"><path d="M4 0h5.5v1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V4.5h1V14a2 2 0 01-2 2H4a2 2 0 01-2-2V2a2 2 0 012-2z"></path><path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 019.5 3z"></path><path fill-rule="evenodd" d="M5 11.5a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5zm0-2a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5z"></path></svg>
+              Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../sections/content.html">
+                <svg class="bi bi-collection me-1" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 011 13V6a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v7a.5.5 0 01-.5.5zm-13 1A1.5 1.5 0 010 13V6a1.5 1.5 0 011.5-1.5h13A1.5 1.5 0 0116 6v7a1.5 1.5 0 01-1.5 1.5h-13zM2 3a.5.5 0 00.5.5h11a.5.5 0 000-1h-11A.5.5 0 002 3zm2-2a.5.5 0 00.5.5h7a.5.5 0 000-1h-7A.5.5 0 004 1z" clip-rule="evenodd"></path>
+                </svg>
+              Sections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../getting-started/changelog.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" class="bi bi-code-square me-1" fill="currentColor"><path fill-rule="evenodd" d="M14 1H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0 00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z"></path><path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 010 .708L4.207 8l2.647 2.646a.5.5 0 01-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 01.708 0zm2.292 0a.5.5 0 000 .708L11.793 8l-2.647 2.646a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 00-.708 0z"></path></svg>
+                Changelogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../getting-started/support.html">
+                <svg class="bi bi-info-square me-1" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14 1H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0 00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z" clip-rule="evenodd"></path>
+                  <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"></path>
+                  <circle cx="8" cy="4.5" r="1"></circle>
+                </svg>
+              Support</a>
+            </li>
+          </ul>
+          <div class="text-center py-3 py-md-0">
+            <a target="_blank" class="btn btn-warning btn-sm d-block d-lg-inline" href="../../index.html">
+              <svg class="bi bi-link-45deg" width="1.2rem" height="1.2rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.715 6.542L3.343 7.914a3 3 0 104.243 4.243l1.828-1.829A3 3 0 008.586 5.5L8 6.086a1.001 1.001 0 00-.154.199 2 2 0 01.861 3.337L6.88 11.45a2 2 0 11-2.83-2.83l.793-.792a4.018 4.018 0 01-.128-1.287z"></path>
+                <path d="M5.712 6.96l.167-.167a1.99 1.99 0 01.896-.518 1.99 1.99 0 01.518-.896l.167-.167A3.004 3.004 0 006 5.499c-.22.46-.316.963-.288 1.46z"></path>
+                <path d="M6.586 4.672A3 3 0 007.414 9.5l.775-.776a2 2 0 01-.896-3.346L9.12 3.55a2 2 0 012.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 00-4.243-4.243L6.586 4.672z"></path>
+                <path d="M10 9.5a2.99 2.99 0 00.288-1.46l-.167.167a1.99 1.99 0 01-.896.518 1.99 1.99 0 01-.518.896l-.167.167A3.004 3.004 0 0010 9.501z"></path>
+              </svg>
+              Live Preview
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navigation -->
+  </header>
+
+  <!--Main start-->
+  <div id="content" class="container">
+    <div class="row">
+      <div class="col-12 pt-4 pt-lg-0 d-lg-none">
+        <!-- left nav -->
+        <button type="button" class="border" data-bs-toggle="collapse" data-bs-target="#leftnav" aria-controls="leftnav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-primary me-2" width="2rem" height="2rem" fill="currentColor" viewBox="0 0 512 512"><line x1="80" y1="160" x2="432" y2="160" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="80" y1="256" x2="432" y2="256" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/><line x1="80" y1="352" x2="432" y2="352" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"/></svg>
+          Left Sidebar Menu
+        </button>
+      </div>
+
+      <!--left sidebar start-->
+      <div class="col-12 col-lg-3 col-xl-2 bn-sidebar">
+        <nav class="collapse d-lg-block ps-lg-3 py-3" id="leftnav">
+          <!-- get started -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+              Getting started
+            </a>
+            <ul class="nav milyader collapse" id="collapse1" data-bs-parent="#leftnav">
+              <li><a href="../index.html">Introduction</a></li>
+              <li><a href="../getting-started/file-structures.html">File structures</a></li>
+              <li><a href="../getting-started/tools.html">Tools</a></li>
+              <li><a href="../getting-started/credits.html">Credits</a></li>
+              <li><a href="../getting-started/update.html">Update</a></li>
+              <li><a href="../getting-started/changelog.html">Changelogs</a></li>
+            </ul>
+          </div>
+          <!-- Customization -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            Customize
+            </a>
+            <ul class="nav milyader collapse" id="collapse5" data-bs-parent="#leftnav">
+              <li><a href="../customization/css.html">CSS</a></li>
+              <li><a href="../customization/sass.html">SASS</a></li>
+              <li><a href="../customization/js.html">JS</a></li>
+              <li><a href="../customization/typography.html">Typography</a></li>
+              <li><a href="../customization/colors.html">Colors</a></li>
+              <li><a href="../customization/rtl.html">RTL</a></li>
+            </ul>
+          </div>
+          <!-- layout -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse1b" aria-expanded="false" aria-controls="collapse1b">
+              Layout
+            </a>
+            <ul class="nav milyader collapse" id="collapse1b" data-bs-parent="#leftnav">
+              <li><a href="../layout/grid.html">Grid</a></li>
+              <li><a href="../layout/z-index.html">Z-index</a></li>
+            </ul>
+          </div>
+          <!-- Content -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse41" aria-expanded="false" aria-controls="collapse41">
+            Content
+            </a>
+            <ul class="nav milyader collapse" id="collapse41" data-bs-parent="#leftnav">
+              <li><a class="active" href="../content/typography.html">Typography</a></li>
+            </ul>
+          </div>
+          <!-- Forms -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse42" aria-expanded="false" aria-controls="collapse42">
+            Forms
+            </a>
+            <ul class="nav milyader collapse" id="collapse42" data-bs-parent="#leftnav">
+              <li><a href="../forms/input-pill.html">Input form pill</a></li>
+            </ul>
+          </div>
+          <!-- components -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Component
+            </a>
+            <ul class="nav milyader collapse" id="collapse3" data-bs-parent="#leftnav">
+              <li><a href="../components/accordion.html">Accordion</a></li>
+              <li><a href="../components/alerts.html">Alerts</a></li>
+              <li><a href="../components/animate.html">Animate</a></li>
+              <li><a href="../components/avatars.html">Avatars</a></li>
+              <li><a href="../components/backtop.html">Back to top</a></li>
+              <li><a href="../components/badge.html">Badge</a></li>
+              <li><a href="../components/bg-video.html">Background video</a></li>
+              <li><a href="../components/breadcrumb.html">Breadcrumb</a></li>
+              <li><a href="../components/buttons.html">Buttons</a></li>
+              <li><a href="../components/cards.html">Cards</a></li>
+              <li><a href="../components/collapse.html">Collapse</a></li>
+              <li><a href="../components/device.html">Device</a></li>
+              <li><a href="../components/dropdown.html">Dropdown</a></li>
+              <li><a href="../components/list-group.html">List group</a></li>
+              <li><a href="../components/mega-menu.html">Mega menu</a></li>
+              <li><a href="../components/mobile-menu.html">Mobile menu</a></li>
+              <li><a href="../components/modal.html">Modal</a></li>
+              <li><a href="../components/navbar.html">Navbar</a></li>
+              <li><a href="../components/pagination.html">Pagination</a></li>
+              <li><a href="../components/particles.html">Particles</a></li>
+              <li><a href="../components/popovers.html">Popovers</a></li>
+              <li><a href="../components/progress.html">Progress</a></li>
+              <li><a href="../components/ribbon.html">Ribbon</a></li>
+              <li><a href="../components/spinners.html">Spinners</a></li>           
+              <li><a href="../components/tabs.html">Tabs</a></li>
+              <li><a href="../components/toasts.html">Toasts</a></li>
+              <li><a href="../components/tooltips.html">Tooltips</a></li>
+            </ul>
+          </div>
+          <!-- plugins -->
+          <div class="bn-toc-item active">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse66" aria-expanded="true" aria-controls="collapse66">
+              Plugins
+            </a>
+            <ul class="nav milyader collapse show" id="collapse66" data-bs-parent="#leftnav">
+              <li><a href="aos.html">AOS</a></li>
+              <li><a href="counter-up.html">Counter up2</a></li>
+              <li><a href="flickity.html">Flickity</a></li>
+              <li><a href="hc-sticky.html">Hc Sticky</a></li>
+              <li class="isotope"><a href="isotope.html">Isotope</a></li>
+              <li><a href="jarallax.html">Jarallax</a></li>
+              <li><a href="vanilla-lazyload.html">Lazyload</a></li>
+              <li><a href="lightgallery.html">Lightgallery</a></li>
+              <li><a href="smooth-scroll.html">Smooth Scroll</a></li>
+              <li><a href="typed.html">Typed</a></li>
+              <li><a href="waves.html">Waves</a></li>
+              <li><a href="waypoints.html">Waypoints</a></li>
+            </ul>
+          </div>
+          <!-- Utilities -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            Utilities
+            </a>
+            <ul class="nav milyader collapse" id="collapse4" data-bs-parent="#leftnav">
+              <li><a href="../utilities/colors.html">Colors</a></li>
+              <li><a href="../utilities/opacity.html">Opacity</a></li>
+              <li><a href="../utilities/overlay.html">Overlay</a></li>
+              <li><a href="../utilities/rotate.html">Rotate</a></li>
+              <li><a href="../utilities/shadows.html">Shadow</a></li>
+              <li><a href="../utilities/spacing.html">Spacing</a></li>
+            </ul>
+          </div>
+          <!-- Svg -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse43" aria-expanded="false" aria-controls="collapse43">
+            Svg Images
+            </a>
+            <ul class="nav milyader collapse" id="collapse43" data-bs-parent="#leftnav">
+              <li><a href="../svg-img/ionicons.html">IonIcons</a>
+              <li><a href="../svg-img/scribble.html">Scribble</a>
+            </ul>
+          </div>
+          <!-- Optimization -->
+          <div class="bn-toc-item">
+            <a class="bn-toc-link" href="#" data-bs-toggle="collapse" data-bs-target="#collapse44" aria-expanded="false" aria-controls="collapse44">
+            Optimization
+            </a>
+            <ul class="nav milyader collapse" id="collapse44" data-bs-parent="#leftnav">
+              <li><a href="../optimization/overview.html">Overview</a></li>
+              <li><a href="../optimization/web-vitals.html">Web Vitals</a></li>
+              <li><a href="../optimization/loading.html">Fast Loading</a></li>
+              <li><a href="../optimization/pwa.html">PWA</a></li>
+              <li><a href="../optimization/webp.html">WebP Images</a></li>
+              <li><a href="../optimization/w3c.html">W3C Standart</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!--Left sidebar end-->
+      
+      <!--Right sidebar start-->
+      <div class="d-none d-xl-block col-xl-2 bn-toc">
+        <ul class="milyader ps-0 border-start text-muted">
+          <li class="d-block">
+            <a href="#installation">Installation</a>
+          </li>
+          <li class="d-block">
+            <a href="#example">Example</a>
+          </li>
+        </ul>
+      </div>
+      <!--Right sidebar end-->
+        
+      <!--Content start-->
+      <main class="col-12 col-lg-9 col-xl-8 px-md-3 ps-lg-5 pe-lg-4 bn-content pb-5">
+        <div class="jump mt-lg-3">
+          <h1 class="mb-3">Isotope</h1>
+          <p class="lead text-muted">Filter & sort magical layouts.</p>
+        </div>
+
+        <div id="installation" class="jump">
+          <h2 class="h4 mb-3">Installation</h2>
+          <p>Add script right before closing <code>&lt;/body&gt;</code> tag, and initialize Isotope</p>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;!-- Plugin js --&gt;
+              &lt;script src="src/plugins/isotope-layout/dist/isotope.pkgd.min.js"&gt;&lt;/script&gt;
+            </code>
+          </pre>
+          <p>If you want to remove Isotope js editing <code>theme.js</code> in this function <code>myIsotope_filter();</code></p>
+          <br>
+        </div>
+        
+        <div id="example" class="jump">
+          <h2 class="h4 mb-3">Example</h2>
+          <br>
+
+          <!-- navigation -->
+          <div class="button-group filters-button-group portfolio-nav text-center">
+            <button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5 active" data-filter="*">All</button>
+            <button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".web">Web</button>
+            <button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".branding">Branding</button>
+            <button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".graphic">Graphic</button>
+            <button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".photovid">Photograpy</button>
+          </div><!-- end navigation -->
+          
+          <!-- Portfolio Content -->
+          <div id="thumbnail-images" class="grid portfolio row g-0">
+            <figure data-src="../../src/img-min/portfolio/digital1.jpg" class="col-sm-6 col-lg-4 portfolio-item branding" data-sub-html="title images">
+              <img class="portfolio-image" src="../../src/img-min/portfolio/digital1-small.jpg" alt="Image Description">
+              <figcaption class="portfolio-info text-center">
+                <h3 class="h6 my-1 text-light">Logo Design</h3>
+                <small class="d-block">Branding</small>
+              </figcaption>
+            </figure>
+
+            <figure data-src="../../src/img-min/portfolio/digital2.jpg" class="col-sm-6 col-lg-4 portfolio-item photovid branding web" data-sub-html="title images">
+              <img class="portfolio-image" src="../../src/img-min/portfolio/digital2-small.jpg" alt="Image Description">
+              <figcaption class="portfolio-info text-center">
+                <h3 class="h6 my-1 text-light">Web Development</h3>
+                <small class="d-block">Web</small>
+              </figcaption>
+            </figure>
+
+            <figure data-src="../../src/img-min/portfolio/digital3.jpg" class="col-sm-6 col-lg-4 portfolio-item graphic" data-sub-html="title images">
+              <img class="portfolio-image" src="../../src/img-min/portfolio/digital3-small.jpg" alt="Image Description">
+              <figcaption class="portfolio-info text-center">
+                <h3 class="h6 my-1 text-light">Graphic Design</h3>
+                <small class="d-block">Graphic</small>
+              </figcaption>
+            </figure>
+
+            <figure data-src="../../src/img-min/portfolio/digital4.jpg" class="col-sm-6 col-lg-4 portfolio-item branding graphic" data-sub-html="title images">
+              <img class="portfolio-image" src="../../src/img-min/portfolio/digital4-small.jpg" alt="Image Description">
+              <figcaption class="portfolio-info text-center">
+                <h3 class="h6 my-1 text-light">Video Marketing</h3>
+                <small class="d-block">Video</small>
+              </figcaption>
+            </figure>
+
+            <figure data-src="../../src/img-min/portfolio/digital5.jpg" class="col-sm-6 col-lg-4 portfolio-item photovid" data-sub-html="title images">
+              <img class="portfolio-image" src="../../src/img-min/portfolio/digital5-small.jpg" alt="Image Description">
+              <figcaption class="portfolio-info text-center">
+                <h3 class="h6 my-1 text-light">Photography</h3>
+                <small class="d-block">Photo</small>
+              </figcaption>
+            </figure>
+
+            <figure data-src="../../src/img-min/portfolio/digital6.jpg" class="col-sm-6 col-lg-4 portfolio-item web" data-sub-html="title images">
+              <img class="portfolio-image" src="../../src/img-min/portfolio/digital6-small.jpg" alt="Image Description">
+              <figcaption class="portfolio-info text-center">
+                <h3 class="h6 my-1 text-light">Apps Development</h3>
+                <small class="d-block">Apps</small>
+              </figcaption>
+            </figure>
+          </div>
+          <br><br>
+          <h3 class="fw-medium">How to use</h3>
+          <p>You can use isotope with add class in data filter like this <code>data-filter=".web"</code> and use caption text with <code>data-sub-html="title images"</code></p>
+          <pre>
+            <code class="language-markup" data-lang="html">
+              &lt;!-- navigation --&gt;
+              &lt;div class="button-group filters-button-group portfolio-nav text-center"&gt;
+                &lt;button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5 active" data-filter="*"&gt;All&lt;/button&gt;
+                &lt;button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".web"&gt;Web&lt;/button&gt;
+                &lt;button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".branding"&gt;Branding&lt;/button&gt;
+                &lt;button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".graphic"&gt;Graphic&lt;/button&gt;
+                &lt;button class="portfolio-nav-item bg-transparent border-0 mb-4 mb-md-5" data-filter=".photovid"&gt;Photograpy&lt;/button&gt;
+              &lt;/div&gt;&lt;!-- end navigation --&gt;
+              
+              &lt;!-- Portfolio Content --&gt;
+              &lt;div id="thumbnail-images" class="grid portfolio row g-0"&gt;
+                &lt;figure data-src="assets/img-min/portfolio/digital1.jpg" class="col-sm-6 col-lg-4 portfolio-item branding" data-sub-html="title images"&gt;
+                  &lt;img class="portfolio-image" src="assets/img-min/portfolio/digital1-small.jpg" alt="Image Description"&gt;
+                  &lt;figcaption class="portfolio-info text-center"&gt;
+                    &lt;h3 class="h6 my-1 text-light"&gt;Logo Design&lt;/h3&gt;
+                    &lt;small class="d-block"&gt;Branding&lt;/small&gt;
+                  &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+                &lt;figure data-src="assets/img-min/portfolio/digital2.jpg" class="col-sm-6 col-lg-4 portfolio-item photovid branding web" data-sub-html="title images"&gt;
+                  &lt;img class="portfolio-image" src="assets/img-min/portfolio/digital2-small.jpg" alt="Image Description"&gt;
+                  &lt;figcaption class="portfolio-info text-center"&gt;
+                    &lt;h3 class="h6 my-1 text-light"&gt;Web Development&lt;/h3&gt;
+                    &lt;small class="d-block"&gt;Web&lt;/small&gt;
+                  &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+                &lt;figure data-src="assets/img-min/portfolio/digital3.jpg" class="col-sm-6 col-lg-4 portfolio-item graphic" data-sub-html="title images"&gt;
+                  &lt;img class="portfolio-image" src="assets/img-min/portfolio/digital3-small.jpg" alt="Image Description"&gt;
+                  &lt;figcaption class="portfolio-info text-center"&gt;
+                    &lt;h3 class="h6 my-1 text-light"&gt;Graphic Design&lt;/h3&gt;
+                    &lt;small class="d-block"&gt;Graphic&lt;/small&gt;
+                  &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+                &lt;figure data-src="assets/img-min/portfolio/digital4.jpg" class="col-sm-6 col-lg-4 portfolio-item branding graphic" data-sub-html="title images"&gt;
+                  &lt;img class="portfolio-image" src="assets/img-min/portfolio/digital4-small.jpg" alt="Image Description"&gt;
+                  &lt;figcaption class="portfolio-info text-center"&gt;
+                    &lt;h3 class="h6 my-1 text-light"&gt;Video Marketing&lt;/h3&gt;
+                    &lt;small class="d-block"&gt;Video&lt;/small&gt;
+                  &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+                &lt;figure data-src="assets/img-min/portfolio/digital5.jpg" class="col-sm-6 col-lg-4 portfolio-item photovid" data-sub-html="title images"&gt;
+                  &lt;img class="portfolio-image" src="assets/img-min/portfolio/digital5-small.jpg" alt="Image Description"&gt;
+                  &lt;figcaption class="portfolio-info text-center"&gt;
+                    &lt;h3 class="h6 my-1 text-light"&gt;Photography&lt;/h3&gt;
+                    &lt;small class="d-block"&gt;Photo&lt;/small&gt;
+                  &lt;/figcaption&gt;
+                &lt;/figure&gt;
+
+                &lt;figure data-src="assets/img-min/portfolio/digital6.jpg" class="col-sm-6 col-lg-4 portfolio-item web" data-sub-html="title images"&gt;
+                  &lt;img class="portfolio-image" src="assets/img-min/portfolio/digital6-small.jpg" alt="Image Description"&gt;
+                  &lt;figcaption class="portfolio-info text-center"&gt;
+                    &lt;h3 class="h6 my-1 text-light"&gt;Apps Development&lt;/h3&gt;
+                    &lt;small class="d-block"&gt;Apps&lt;/small&gt;
+                  &lt;/figcaption&gt;
+                &lt;/figure&gt;
+              &lt;/div&gt;
+            </code>
+          </pre>
+          <br>
+          <p>Isotope demo with Lightgallery.js see <a href="../../sections/portfolio.html">in here</a></p>
+          <p>For complete documentation read <a href="https://isotope.metafizzy.co/" target="_blank">in here</a></p>
+        </div>
+      </main>
+      <!--Content end-->
+    </div>
+  </div>
+  <!--Main end-->
+  
+  <!-- =========={ SCROLL TO TOP }==========  -->
+  <a href="#page-top" class="p-3 border position-fixed end-1 bottom-1 z-index-10 back-top" title="Scroll To Top">
+    <!-- <i class="fas fa-arrow-up"></i> -->
+    <svg class="bi bi-arrow-up" width="1rem" height="1rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M8 3.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V4a.5.5 0 01.5-.5z" clip-rule="evenodd"></path>
+      <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 3.707 5.354 6.354a.5.5 0 11-.708-.708l3-3z" clip-rule="evenodd"></path>
+    </svg>
+  </a>
+  
+  <!-- =========={ JAVASCRIPT }==========  -->
+  <!-- Popper and Bootstrap js -->
+  <script src="../../src/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin js -->
+  <script src="../../src/plugins/jarallax/dist/jarallax.min.js"></script>
+  <script src="../../src/plugins/jarallax/dist/jarallax-video.min.js"></script>
+
+  <script src="../../src/plugins/lightgallery.js/dist/js/lightgallery.min.js"></script>
+  <script src="../../src/plugins/lightgallery.js/demo/js/lg-thumbnail.min.js"></script>
+  <script src="../../src/plugins/lightgallery.js/demo/js/lg-video.js"></script>
+  
+  <script src="../../src/plugins/aos/dist/aos.js"></script>
+  <script src="../../src/plugins/waypoints/lib/noframework.waypoints.min.js"></script>
+  <script src="../../src/plugins/counterup2/dist/index.js"></script>
+  <script src="../../src/plugins/flickity/dist/flickity.pkgd.min.js"></script>
+  <script src="../../src/plugins/typed.js/lib/typed.min.js"></script>
+  <script src="../../src/plugins/isotope-layout/dist/isotope.pkgd.min.js"></script>
+  <script src="../../src/plugins/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="../../src/plugins/vanilla-lazyload/dist/lazyload.min.js"></script>
+  <script src="../../src/plugins/hc-sticky/dist/hc-sticky.js"></script>
+
+  <!-- Theme js -->
+  <script src="../../src/js/theme.js"></script>
+  
+  <!--documentation js-->
+  <script src="../assets/js/prism/prism.js"></script>
+</body>
+</html>

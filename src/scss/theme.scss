@@ -1,0 +1,22 @@
+// Functions
+@import 'onekit/functions';
+
+// Onekit variables
+@import 'variables';
+
+// Custom variable
+@import 'custom/custom-variables';
+
+// Bootstrap core
+@import '../plugins/bootstrap/scss/bootstrap';
+
+/*----------------------------------------------------------------------
+  * Onekit - Bootstrap Landing Page Template
+  * Copyright 2021 MadeThemes
+  * Licensed under  (https://support.wrapbootstrap.com/help/usage-licenses)
+------------------------------------------------------------------------*/
+
+@import 'onekit/onekit';
+
+// Custom start
+@import 'custom/custom';
